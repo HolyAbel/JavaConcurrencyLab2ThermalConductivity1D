@@ -4,7 +4,7 @@ import static main.java.edu.hsai.thermalconductivity1d.ThermalConductivity.getDi
 
 public class App {
     public static void main(String[] args) {
-//        int steps = 1000;
+//        int steps = 100;
 //        int fieldLenght = 16;
 //        double startTemp = 100.0;
 //        double speedCoef = 0.02;
