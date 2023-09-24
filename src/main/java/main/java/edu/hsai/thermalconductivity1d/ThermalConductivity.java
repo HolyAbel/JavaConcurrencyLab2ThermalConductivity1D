@@ -8,8 +8,6 @@ public class ThermalConductivity {
         DecimalFormat decimalFormat = new DecimalFormat("#.#");
         double[] temperature = new double[fieldLenght];
 
-        double start = System.currentTimeMillis();
-
         temperature[fieldLenght / 2 - 1] = startTemp;
         for (int j = 0; j < fieldLenght; j++) {
             System.out.printf("%6s ", decimalFormat.format(temperature[j]));
@@ -57,8 +55,6 @@ public class ThermalConductivity {
             System.out.println();
         }
 
-        double duration = System.currentTimeMillis() - start;
-        System.out.println("Duration: " + duration);
         return temperature;
     }
 }
